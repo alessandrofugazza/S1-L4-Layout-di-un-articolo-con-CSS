@@ -108,8 +108,11 @@ iframe {
 .boxes {
     margin-block: 25px;
     background-color: rgb(206, 206, 206);
-    border: 1px solid black;
     padding: 20px;
+}
+
+.boxes:not(.news) {
+    border: 1px solid black;
 }
 
 .boxes:not(:last-of-type) {
