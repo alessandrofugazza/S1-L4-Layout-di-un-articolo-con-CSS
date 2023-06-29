@@ -8,11 +8,11 @@ body {
 
 .content {
     background-image: url(/assets/img/sfondo.png);
+    background-position: 51% 45%;
 }
 
 .inner-content {
-    margin: 25px;
-
+    padding: 25px;
 }
 
 .inner-content>*:not(:last-child) {
