@@ -85,6 +85,11 @@ main>article>*:not(:last-child) {
     margin-bottom: 15px;
 }
 
+ol,
+ul {
+    padding-left: 30px;
+}
+
 h3 {
     margin-bottom: 0;
 }
