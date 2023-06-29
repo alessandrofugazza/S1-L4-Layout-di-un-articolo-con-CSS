@@ -127,7 +127,9 @@ thead {
     background-color: #4646f9;
 }
 
-
+main>article>.table {
+    margin-bottom: 30px;
+}
 
 th {
     color: white;
@@ -138,7 +140,6 @@ td {
     padding: 12px 15px;
     vertical-align: bottom;
     text-align: center;
-
 }
 
 tbody tr:nth-child(even) {
